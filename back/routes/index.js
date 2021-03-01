@@ -2,10 +2,10 @@ const express = require('express')
 const router = express.Router();
 
 
-const performances = require('./performances');
+const team = require('./router/teamRouter');
 
 
-router.use('/performances', performances)
+router.use('/team', team)
 
 
 
